@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FSharp.Core" Version="8.0.200" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessLogic.Abstraction\BusinessLogic.Abstraction.csproj" />
+    <ProjectReference Include="..\BusinessLogic.Models\BusinessLogic.Models.csproj" />
+    <ProjectReference Include="..\BusinessLogicFSharpDotnetFramework\BusinessLogicFSharpDotnetFramework.fsproj" />
+  </ItemGroup>
+
+</Project>

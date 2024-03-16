@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows7.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="IndexModule.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="FW-FSharp.Charting.Core" Version="2.2.1" />
+    <PackageReference Include="MathNet.Numerics" Version="5.0.0" />
+    <PackageReference Include="System.Drawing.Common" Version="9.0.0-preview.1.24081.2" />
+    <PackageReference Include="WinForms.DataVisualization" Version="1.9.2" />
+  </ItemGroup>
+</Project>
